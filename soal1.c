@@ -9,6 +9,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 void rec_kurung(int n, int jumlah_bukakurung, int jumlah_tutupkurung, char* current_str, int index, int* total) {
     if (index == 2*n) {
